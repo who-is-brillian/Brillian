@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>personal web</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mogra&family=Oleo+Script:wght@400;700&family=Protest+Guerrilla&family=Rubik+Glitch+Pop&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mogra&family=Oleo+Script:wght@400;700&family=Protest+Guerrilla&family=Rubik+Glitch+Pop&family=Sriracha&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #e6e6e6;
+      }
+
+      #header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+        color: black;
+        /* border-bottom: 2px grey solid; */
+      }
+
+      header {
+        font-family: "Mogra", system-ui;
+      }
+      .navbar a {
+        text-decoration: none;
+        color: black;
+        letter-spacing: 2px;
+        font-family: serif;
+      }
+      .garis {
+        border-left: 1px black solid;
+        padding-left: 5px;
+      }
+      .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        width: 100%;
+        padding-bottom: 55px;
+        padding-top: 20px;
+      }
+      #img {
+        width: 400px;
+        border-radius: 50%;
+      }
+      .hallo {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 800;
+        font-size: 150px;
+        margin: auto;
+      }
+      .content-text {
+        margin: 20px;
+        font-family: serif;
+        font-size: 15px;
+      }
+      .button {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 10px;
+        margin-top: 30px;
+        font-family: "Ubuntu", sans-serif;
+      }
+      .purple {
+        background-color: rgb(86, 255, 213);
+        text-decoration: none;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        display: flex;
+        color: black;
+        font-weight: 500;
+        border: 1px solid black;
+      }
+      .purple:hover {
+        background-color: #ffffff;
+        color: black;
+        transition: 0.5s;
+      }
+      .purple1 {
+        background-color: rgb(255, 93, 93);
+        text-decoration: none;
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        display: flex;
+        margin-left: 3px;
+        color: black;
+        border: 1px solid black;
+      }
+      .purple1:hover {
+        background-color: #ffffff;
+        color: black;
+        transition: 0.5s;
+      }
+      .purple2 {
+        background-color: rgb(247, 255, 142);
+        text-decoration: none;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        text-align: center;
+        display: flex;
+        margin-left: 3px;
+        color: black;
+        border: 1px solid black;
+      }
+      .purple2:hover {
+        background-color: #ffffff;
+        color: black;
+        transition: 0.5s;
+      }
+      h5 {
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0);
+      }
+      @media screen and (max-width: 768px) {
+        .content {
+          flex-direction: column;
+        }
+        .content-text {
+          margin: 10px;
+          font-family: serif;
+          font-size: 15px;
+          max-width: 100%;
+        }
+        .hallo {
+          font-size: 60px;
+        }
+        .navbar a {
+          font-size: 14px;
+        }
+        .button {
+          display: flex;
+        }
+        .purple,
+        .purple2 {
+          height: 100px;
+          width: 100px;
+          margin-bottom: 10px;
+        }
+        .purple1 {
+          height: 120px;
+          width: 120px;
+          margin-bottom: 10px;
+        }
+        .purple h5,
+        .purple1 h5,
+        .purple2 h5 {
+          margin: auto;
+        }
+      }
+      #footer {
+        background-color: rgb(255, 255, 255);
+        color: #9a9a9a;
+        padding: 20px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+      }
+      .icons a {
+        text-decoration: none;
+        color: #9a9a9a;
+        margin-right: 30px;
+        margin-left: 30px;
+      }
+      .icons a:hover {
+        color: rgb(0, 0, 0);
+      }
+      .fa-instagram {
+        color: rgb(255, 3, 205);
+      }
+      .fa-facebook {
+        color: rgb(8, 0, 255);
+      }
+      .fa-square-twitter {
+        color: rgb(3, 167, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header -->
+    <div id="header">
+      <header>
+        <h1>BRILLIAN</h1>
+      </header>
+      <div class="navbar">
+        <a href="resume.html">RESUME</a>
+        <a href="projects.html" class="garis">PROJECTS</a>
+        <a href="contact.html" class="garis">CONTACT</a>
+      </div>
+    </div>
+    <!-- content -->
+    <div class="content">
+      <img id="img" src="IMG_20240310_231224.jpg" title="ini_foto_saya" />
+      <div class="content-text">
+        <h1 class="hallo">Hallo</h1>
+        <h4>A Bit About Me</h4>
+        <p>
+          Hi, let me introduce myself, my name is Brillian. <br />
+          I am a student at the Semen Indonesia Polytechnic campus. <br />
+          Please select an option below for information about me.
+        </p>
+        <div class="button">
+          <a href="resume.html" class="purple"><h5>RESUME</h5></a>
+          <a href="projects.html" class="purple1"><h5>PROJECTS</h5></a>
+          <a href="contact.html" class="purple2"><h5>CONTACT</h5></a>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+      <p>Hak Cipta &copy; 2024 Website Brillian.</p>
+      <div class="icons">
+        <i class="fa-brands fa-instagram"></i>
+        <a href="https://www.instagram.com/brlyn_mk/?next=%2F" class=""
+          >instagram</a
+        >
+        <i class="fa-brands fa-facebook"></i>
+        <a href="https://web.facebook.com/profile.php?id=100056192124574"
+          >Facebook</a
+        >
+        <i class="fa-brands fa-square-twitter"></i>
+        <a href="https://twitter.com/Brilliansj">Twitter</a>
+      </div>
+    </div>
+    <script>
+      const masuk = confirm("anda yakin mau masuk?");
+      if (masuk) {
+        const name = prompt("siapa nama anda?");
+        alert(`hallo ${name}`);
+      } else {
+        alert("HEMMMM!");
+      }
+    </script>
+  </body>
+</html>

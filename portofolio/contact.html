@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mogra&family=Oleo+Script:wght@400;700&family=Protest+Guerrilla&family=Rubik+Glitch+Pop&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mogra&family=Oleo+Script:wght@400;700&family=Protest+Guerrilla&family=Rubik+Glitch+Pop&family=Sriracha&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #e6e6e6;
+        overflow-x: hidden;
+        font-family: "Rubik", sans-serif;
+      }
+
+      #header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+        color: black;
+      }
+
+      header {
+        font-family: "Mogra", system-ui;
+      }
+
+      .navbar a {
+        text-decoration: none;
+        color: black;
+        letter-spacing: 2px;
+        font-family: serif;
+      }
+
+      .garis {
+        border-left: 1px black solid;
+        padding-left: 5px;
+      }
+
+      #img {
+        border-radius: 50%;
+        height: 20%;
+        width: 20%;
+        text-align: center;
+        justify-content: center;
+        margin-left: 40%;
+      }
+
+      #contact {
+        display: flex;
+        color: black;
+        justify-content: center;
+        padding-bottom: 10vw;
+        text-align: center;
+        flex-direction: column;
+      }
+
+      .icons a {
+        text-decoration: none;
+        color: #9a9a9a;
+        margin-right: 2vw;
+        margin-left: 2vw;
+      }
+
+      .icons a:hover {
+        color: rgb(0, 0, 0);
+      }
+
+      .fa-instagram {
+        color: rgb(255, 3, 205);
+      }
+
+      .fa-facebook {
+        color: rgb(8, 0, 255);
+      }
+
+      .fa-square-twitter {
+        color: rgb(3, 167, 255);
+      }
+
+      /* Added media query for responsiveness */
+      @media only screen and (max-width: 600px) {
+        #img {
+          height: 50%;
+          width: 50%;
+          margin-left: 25%;
+        }
+
+        #contact {
+          padding-top: 20vw;
+          padding-bottom: 20vw;
+        }
+
+        .icons a {
+          margin-right: 5vw;
+          margin-left: 5vw;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <header>
+        <h1>BRILLIAN</h1>
+      </header>
+      <div class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="resume.html" class="garis">RESUME</a>
+        <a href="projects.html" class="garis">PROJECT</a>
+      </div>
+    </div>
+    <div id="contact">
+      <img id="img" src="IMG_20240310_231224.jpg" alt="foto-saya" />
+      <div class="icons">
+        <p>
+          “Orang-orang yang cukup gila untuk berpikir bahwa <br />
+          mereka bisa mengubah dunia adalah orang-orang <br />
+          yang benar-benar melakukannya.” <b> Steve Jobs</b>
+        </p>
+        <h1>
+          “Kami Siap Mendengar <br />
+          Curhatan Anda”
+        </h1>
+        <i class="fab fa-instagram"></i>
+        <a href="https://www.instagram.com/brlyn_mk/?next=%2F" class=""
+          >instagram</a
+        >
+        <i class="fab fa-facebook"></i>
+        <a href="https://web.facebook.com/profile.php?id=100056192124574"
+          >Facebook</a
+        >
+        <i class="fab fa-twitter-square"></i>
+        <a href="https://twitter.com/Brilliansj">Twitter</a>
+      </div>
+    </div>
+  </body>
+</html>
